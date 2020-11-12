@@ -12,187 +12,184 @@ Number of variables            88
 
 # Codebook summary table
 
-----------------------------------------------------------------------------------------------------------------------------
-Label   Variable                                                              Class         # unique  Missing  Description  
-                                                                                              values                        
 ------- --------------------------------------------------------------------- ----------- ---------- --------- -------------
-        Variable                                                         Class             # unique   Missing values               
+        Variable                                                        Class     # unique   Missing values               
 
-        **[subject]**                                                         integer             30  0.00 %                
+        subject                                                         integer             30  0.00 %                
 
-        **[activity]**                                                        character            6  0.00 %                
+        activity                                                        character            6  0.00 %                
 
-        **[time.body.acceleration.mean.x\_mean]**                             numeric            180  0.00 %                
+        time.body.acceleration.mean.x\_mean                             numeric            180  0.00 %                
 
-        **[time.body.acceleration.mean.y\_mean]**                             numeric            180  0.00 %                
+        time.body.acceleration.mean.y\_mean                             numeric            180  0.00 %                
 
-        **[time.body.acceleration.mean.z\_mean]**                             numeric            180  0.00 %                
+        time.body.acceleration.mean.z\_mean                             numeric            180  0.00 %                
 
-        **[time.gravity.acceleration.mean.x\_mean]**                          numeric            180  0.00 %                
+        time.gravity.acceleration.mean.x\_mean                          numeric            180  0.00 %                
 
-        **[time.gravity.acceleration.mean.y\_mean]**                          numeric            180  0.00 %                
+        time.gravity.acceleration.mean.y\_mean                          numeric            180  0.00 %                
 
-        **[time.gravity.acceleration.mean.z\_mean]**                          numeric            180  0.00 %                
+        time.gravity.acceleration.mean.z\_mean                          numeric            180  0.00 %                
 
-        **[time.body.acceleration.jerk.mean.x\_mean]**                        numeric            180  0.00 %                
+        time.body.acceleration.jerk.mean.x\_mean                        numeric            180  0.00 %                
 
-        **[time.body.acceleration.jerk.mean.y\_mean]**                        numeric            180  0.00 %                
+        time.body.acceleration.jerk.mean.y\_mean                        numeric            180  0.00 %                
 
-        **[time.body.acceleration.jerk.mean.z\_mean]**                        numeric            180  0.00 %                
+        time.body.acceleration.jerk.mean.z\_mean                        numeric            180  0.00 %                
 
-        **[time.body.gyroscope.mean.x\_mean]**                                numeric            180  0.00 %                
+        time.body.gyroscope.mean.x\_mean                                numeric            180  0.00 %                
 
-        **[time.body.gyroscope.mean.y\_mean]**                                numeric            180  0.00 %                
+        time.body.gyroscope.mean.y\_mean                                numeric            180  0.00 %                
 
-        **[time.body.gyroscope.mean.z\_mean]**                                numeric            180  0.00 %                
+        time.body.gyroscope.mean.z\_mean                                numeric            180  0.00 %                
 
-        **[time.body.gyroscope.jerk.mean.x\_mean]**                           numeric            180  0.00 %                
+        time.body.gyroscope.jerk.mean.x\_mean                           numeric            180  0.00 %                
 
-        **[time.body.gyroscope.jerk.mean.y\_mean]**                           numeric            180  0.00 %                
+        time.body.gyroscope.jerk.mean.y\_mean                           numeric            180  0.00 %                
 
-        **[time.body.gyroscope.jerk.mean.z\_mean]**                           numeric            180  0.00 %                
+        time.body.gyroscope.jerk.mean.z\_mean                           numeric            180  0.00 %                
 
-        **[time.body.acceleration.magnitude.mean\_mean]**                     numeric            180  0.00 %                
+        time.body.acceleration.magnitude.mean\_mean                     numeric            180  0.00 %                
 
-        **[time.gravity.acceleration.magnitude.mean\_mean]**                  numeric            180  0.00 %                
+        time.gravity.acceleration.magnitude.mean\_mean                  numeric            180  0.00 %                
 
-        **[time.body.acceleration.jerk.magnitude.mean\_mean]**                numeric            180  0.00 %                
+        time.body.acceleration.jerk.magnitude.mean\_mean                numeric            180  0.00 %                
 
-        **[time.body.gyroscope.magnitude.mean\_mean]**                        numeric            180  0.00 %                
+        time.body.gyroscope.magnitude.mean\_mean                        numeric            180  0.00 %                
 
-        **[time.body.gyroscope.jerk.magnitude.mean\_mean]**                   numeric            180  0.00 %                
+        time.body.gyroscope.jerk.magnitude.mean\_mean                   numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.mean.x\_mean]**                        numeric            180  0.00 %                
+        frequency.body.acceleration.mean.x\_mean                        numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.mean.y\_mean]**                        numeric            180  0.00 %                
+        frequency.body.acceleration.mean.y\_mean                        numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.mean.z\_mean]**                        numeric            180  0.00 %                
+        frequency.body.acceleration.mean.z\_mean                        numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.meanfreq.x\_mean]**                    numeric            180  0.00 %                
+        frequency.body.acceleration.meanfreq.x\_mean                    numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.meanfreq.y\_mean]**                    numeric            180  0.00 %                
+        frequency.body.acceleration.meanfreq.y\_mean                    numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.meanfreq.z\_mean]**                    numeric            180  0.00 %                
+        frequency.body.acceleration.meanfreq.z\_mean                    numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.jerk.mean.x\_mean]**                   numeric            180  0.00 %                
+        frequency.body.acceleration.jerk.mean.x\_mean                   numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.jerk.mean.y\_mean]**                   numeric            180  0.00 %                
+        frequency.body.acceleration.jerk.mean.y\_mean                   numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.jerk.mean.z\_mean]**                   numeric            180  0.00 %                
+        frequency.body.acceleration.jerk.mean.z\_mean                   numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.jerk.meanfreq.x\_mean]**               numeric            180  0.00 %                
+        frequency.body.acceleration.jerk.meanfreq.x\_mean               numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.jerk.meanfreq.y\_mean]**               numeric            180  0.00 %                
+        frequency.body.acceleration.jerk.meanfreq.y\_mean               numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.jerk.meanfreq.z\_mean]**               numeric            180  0.00 %                
+        frequency.body.acceleration.jerk.meanfreq.z\_mean               numeric            180  0.00 %                
 
-        **[frequency.body.gyroscope.mean.x\_mean]**                           numeric            180  0.00 %                
+        frequency.body.gyroscope.mean.x\_mean                           numeric            180  0.00 %                
 
-        **[frequency.body.gyroscope.mean.y\_mean]**                           numeric            180  0.00 %                
+        frequency.body.gyroscope.mean.y\_mean                           numeric            180  0.00 %                
 
-        **[frequency.body.gyroscope.mean.z\_mean]**                           numeric            180  0.00 %                
+        frequency.body.gyroscope.mean.z\_mean                           numeric            180  0.00 %                
 
-        **[frequency.body.gyroscope.meanfreq.x\_mean]**                       numeric            180  0.00 %                
+        frequency.body.gyroscope.meanfreq.x\_mean                       numeric            180  0.00 %                
 
-        **[frequency.body.gyroscope.meanfreq.y\_mean]**                       numeric            180  0.00 %                
+        frequency.body.gyroscope.meanfreq.y\_mean                       numeric            180  0.00 %                
 
-        **[frequency.body.gyroscope.meanfreq.z\_mean]**                       numeric            180  0.00 %                
+        frequency.body.gyroscope.meanfreq.z\_mean                       numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.magnitude.mean\_mean]**                numeric            180  0.00 %                
+        frequency.body.acceleration.magnitude.mean\_mean                numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.magnitude.meanfreq\_mean]**            numeric            180  0.00 %                
+        frequency.body.acceleration.magnitude.meanfreq\_mean            numeric            180  0.00 %                
 
-        **[frequency.body.bodyacceleration.jerk.magnitude.mean\_mean]**       numeric            180  0.00 %                
+        frequency.body.bodyacceleration.jerk.magnitude.mean\_mean       numeric            180  0.00 %                
 
-        **[frequency.body.bodyacceleration.jerk.magnitude.meanfreq\_mean]**   numeric            180  0.00 %                
+        frequency.body.bodyacceleration.jerk.magnitude.meanfreq\_mean   numeric            180  0.00 %                
 
-        **[frequency.body.body.gyroscope.magnitude.mean\_mean]**              numeric            180  0.00 %                
+        frequency.body.body.gyroscope.magnitude.mean\_mean              numeric            180  0.00 %                
 
-        **[frequency.body.body.gyroscope.magnitude.meanfreq\_mean]**          numeric            180  0.00 %                
+        frequency.body.body.gyroscope.magnitude.meanfreq\_mean          numeric            180  0.00 %                
 
-        **[frequency.body.body.gyroscope.jerk.magnitude.mean\_mean]**         numeric            180  0.00 %                
+        frequency.body.body.gyroscope.jerk.magnitude.mean\_mean         numeric            180  0.00 %                
 
-        **[frequency.body.body.gyroscope.jerk.magnitude.meanfreq\_mean]**     numeric            180  0.00 %                
+        frequency.body.body.gyroscope.jerk.magnitude.meanfreq\_mean     numeric            180  0.00 %                
 
-        **[angletime.body.acceleration.mean.gravity\_mean]**                  numeric            180  0.00 %                
+        angletime.body.acceleration.mean.gravity\_mean                  numeric            180  0.00 %                
 
-        **[angletime.body.acceleration.jerkmean.gravitymean\_mean]**          numeric            180  0.00 %                
+        angletime.body.acceleration.jerkmean.gravitymean\_mean          numeric            180  0.00 %                
 
-        **[angletime.body.gyroscope.mean.gravitymean\_mean]**                 numeric            180  0.00 %                
+        angletime.body.gyroscope.mean.gravitymean\_mean                 numeric            180  0.00 %                
 
-        **[angletime.body.gyroscope.jerkmean.gravitymean\_mean]**             numeric            180  0.00 %                
+        angletime.body.gyroscope.jerkmean.gravitymean\_mean             numeric            180  0.00 %                
 
-        **[anglex.gravitymean\_mean]**                                        numeric            180  0.00 %                
+        anglex.gravitymean\_mean                                        numeric            180  0.00 %                
 
-        **[angley.gravitymean\_mean]**                                        numeric            180  0.00 %                
+        angley.gravitymean\_mean                                        numeric            180  0.00 %                
 
-        **[anglez.gravitymean\_mean]**                                        numeric            180  0.00 %                
+        anglez.gravitymean\_mean                                        numeric            180  0.00 %                
 
-        **[time.body.acceleration.std.x\_mean]**                              numeric            180  0.00 %                
+        time.body.acceleration.std.x\_mean                              numeric            180  0.00 %                
 
-        **[time.body.acceleration.std.y\_mean]**                              numeric            180  0.00 %                
+        time.body.acceleration.std.y\_mean                              numeric            180  0.00 %                
 
-        **[time.body.acceleration.std.z\_mean]**                              numeric            180  0.00 %                
+        time.body.acceleration.std.z\_mean                              numeric            180  0.00 %                
 
-        **[time.gravity.acceleration.std.x\_mean]**                           numeric            180  0.00 %                
+        time.gravity.acceleration.std.x\_mean                           numeric            180  0.00 %                
 
-        **[time.gravity.acceleration.std.y\_mean]**                           numeric            180  0.00 %                
+        time.gravity.acceleration.std.y\_mean                           numeric            180  0.00 %                
 
-        **[time.gravity.acceleration.std.z\_mean]**                           numeric            180  0.00 %                
+        time.gravity.acceleration.std.z\_mean                           numeric            180  0.00 %                
 
-        **[time.body.acceleration.jerk.std.x\_mean]**                         numeric            180  0.00 %                
+        time.body.acceleration.jerk.std.x\_mean                         numeric            180  0.00 %                
 
-        **[time.body.acceleration.jerk.std.y\_mean]**                         numeric            180  0.00 %                
+        time.body.acceleration.jerk.std.y\_mean                         numeric            180  0.00 %                
 
-        **[time.body.acceleration.jerk.std.z\_mean]**                         numeric            180  0.00 %                
+        time.body.acceleration.jerk.std.z\_mean                         numeric            180  0.00 %                
 
-        **[time.body.gyroscope.std.x\_mean]**                                 numeric            180  0.00 %                
+        time.body.gyroscope.std.x\_mean                                 numeric            180  0.00 %                
 
-        **[time.body.gyroscope.std.y\_mean]**                                 numeric            180  0.00 %                
+        time.body.gyroscope.std.y\_mean                                 numeric            180  0.00 %                
 
-        **[time.body.gyroscope.std.z\_mean]**                                 numeric            180  0.00 %                
+        time.body.gyroscope.std.z\_mean                                 numeric            180  0.00 %                
 
-        **[time.body.gyroscope.jerk.std.x\_mean]**                            numeric            180  0.00 %                
+        time.body.gyroscope.jerk.std.x\_mean                            numeric            180  0.00 %                
 
-        **[time.body.gyroscope.jerk.std.y\_mean]**                            numeric            180  0.00 %                
+        time.body.gyroscope.jerk.std.y\_mean                            numeric            180  0.00 %                
 
-        **[time.body.gyroscope.jerk.std.z\_mean]**                            numeric            180  0.00 %                
+        time.body.gyroscope.jerk.std.z\_mean                            numeric            180  0.00 %                
 
-        **[time.body.acceleration.magnitude.std\_mean]**                      numeric            180  0.00 %                
+        time.body.acceleration.magnitude.std\_mean                      numeric            180  0.00 %                
 
-        **[time.gravity.acceleration.magnitude.std\_mean]**                   numeric            180  0.00 %                
+        time.gravity.acceleration.magnitude.std\_mean                   numeric            180  0.00 %                
 
-        **[time.body.acceleration.jerk.magnitude.std\_mean]**                 numeric            180  0.00 %                
+        time.body.acceleration.jerk.magnitude.std\_mean                 numeric            180  0.00 %                
 
-        **[time.body.gyroscope.magnitude.std\_mean]**                         numeric            180  0.00 %                
+        time.body.gyroscope.magnitude.std\_mean                         numeric            180  0.00 %                
 
-        **[time.body.gyroscope.jerk.magnitude.std\_mean]**                    numeric            180  0.00 %                
+        time.body.gyroscope.jerk.magnitude.std\_mean                    numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.std.x\_mean]**                         numeric            180  0.00 %                
+        frequency.body.acceleration.std.x\_mean                         numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.std.y\_mean]**                         numeric            180  0.00 %                
+        frequency.body.acceleration.std.y\_mean                         numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.std.z\_mean]**                         numeric            180  0.00 %                
+        frequency.body.acceleration.std.z\_mean                         numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.jerk.std.x\_mean]**                    numeric            180  0.00 %                
+        frequency.body.acceleration.jerk.std.x\_mean                    numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.jerk.std.y\_mean]**                    numeric            180  0.00 %                
+        frequency.body.acceleration.jerk.std.y\_mean                    numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.jerk.std.z\_mean]**                    numeric            180  0.00 %                
+        frequency.body.acceleration.jerk.std.z\_mean                    numeric            180  0.00 %                
 
-        **[frequency.body.gyroscope.std.x\_mean]**                            numeric            180  0.00 %                
+        frequency.body.gyroscope.std.x\_mean                            numeric            180  0.00 %                
 
-        **[frequency.body.gyroscope.std.y\_mean]**                            numeric            180  0.00 %                
+        frequency.body.gyroscope.std.y\_mean                            numeric            180  0.00 %                
 
-        **[frequency.body.gyroscope.std.z\_mean]**                            numeric            180  0.00 %                
+        frequency.body.gyroscope.std.z\_mean                            numeric            180  0.00 %                
 
-        **[frequency.body.acceleration.magnitude.std\_mean]**                 numeric            180  0.00 %                
+        frequency.body.acceleration.magnitude.std\_mean                 numeric            180  0.00 %                
 
-        **[frequency.body.bodyacceleration.jerk.magnitude.std\_mean]**        numeric            180  0.00 %                
+        frequency.body.bodyacceleration.jerk.magnitude.std\_mean        numeric            180  0.00 %                
 
-        **[frequency.body.body.gyroscope.magnitude.std\_mean]**               numeric            180  0.00 %                
+        frequency.body.body.gyroscope.magnitude.std\_mean               numeric            180  0.00 %                
 
-        **[frequency.body.body.gyroscope.jerk.magnitude.std\_mean]**          numeric            180  0.00 %                
+        frequency.body.body.gyroscope.jerk.magnitude.std\_mean          numeric            180  0.00 %                
 ----------------------------------------------------------------------------------------------------------------------------
 
 
@@ -200,10 +197,7 @@ Label   Variable                                                              Cl
 
 # Variable list
 ## subject
-
-\bminione
-
------------------------------------
+-------------------------------------
 Feature                      Result
 ------------------------- ---------
 Variable type               integer
@@ -219,27 +213,7 @@ Median                         15.5
 Min. and max.                 1; 30
 -----------------------------------
 
-
-\emini
-\bminitwo
-```{r 'Var-1-subject', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(0, 5, 10, 15, 20, 25
-), xmax = c(5, 10, 15, 20, 25, 30), ymin = c(0, 0, 0, 0, 0, 0
-), ymax = c(30L, 30L, 30L, 30L, 30L, 30L)), class = "data.frame", row.names = c(NA, 
--6L)), vnam = "subject")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## activity
-
-\bminione
-
 -------------------------------------
 Feature                        Result
 ------------------------- -----------
@@ -252,29 +226,10 @@ Number of unique values             6
 Mode                         "laying"
 -------------------------------------
 
-
-\emini
-\bminitwo
-```{r 'Var-2-activity', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggBarplot(data = structure(list(x = structure(1:6, .Label = c("laying", 
-"sitting", "standing", "walking", "walking downstairs", "walking upstairs"
-), class = "factor"), y = c(30L, 30L, 30L, 30L, 30L, 30L)), class = "data.frame", row.names = c(NA, 
--6L)), vnam = "activity")
-```
-
-\emini
-
-
 - Observed factor levels: \"laying\", \"sitting\", \"standing\", \"walking\", \"walking downstairs\", \"walking upstairs\". 
 
 
-
-\fullline
-
 ## time.body.acceleration.mean.x\_mean
-
-\bminione
-
 --------------------------------------
 Feature                         Result
 ------------------------- ------------
@@ -292,27 +247,7 @@ Min. and max.                0.22; 0.3
 --------------------------------------
 
 
-\emini
-\bminitwo
-```{r 'Var-3-time-body-acceleration-mean-x-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(0.22, 0.23, 0.24, 0.25, 
-0.26, 0.27, 0.28, 0.29, 0.3), xmax = c(0.23, 0.24, 0.25, 0.26, 
-0.27, 0.28, 0.29, 0.3, 0.31), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 
-0), ymax = c(1L, 2L, 7L, 11L, 21L, 93L, 30L, 14L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "time.body.acceleration.mean.x_mean")
-```
-
-\emini
-
-
-
-
-\fullline
-
 ## time.body.acceleration.mean.y\_mean
-
-\bminione
-
 ----------------------------------------
 Feature                           Result
 ------------------------- --------------
@@ -346,11 +281,11 @@ ggAggHist(data = structure(list(xmin = c(-0.045, -0.04, -0.035,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.mean.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -385,11 +320,11 @@ ggAggHist(data = structure(list(xmin = c(-0.16, -0.15, -0.14,
 
 
 
-\fullline
+
 
 ## time.gravity.acceleration.mean.x\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -423,11 +358,11 @@ ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2,
 
 
 
-\fullline
+
 
 ## time.gravity.acceleration.mean.y\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -461,11 +396,11 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 
 
 
-\fullline
+
 
 ## time.gravity.acceleration.mean.z\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -499,11 +434,11 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.jerk.mean.x\_mean
 
-\bminione
+
 
 --------------------------------------
 Feature                         Result
@@ -537,11 +472,11 @@ ggAggHist(data = structure(list(xmin = c(0.04, 0.05, 0.06, 0.07,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.jerk.mean.y\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -576,11 +511,11 @@ ggAggHist(data = structure(list(xmin = c(-0.04, -0.03, -0.02,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.jerk.mean.z\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -615,11 +550,11 @@ ggAggHist(data = structure(list(xmin = c(-0.07, -0.06, -0.05,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.mean.x\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -653,11 +588,11 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.mean.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -693,11 +628,11 @@ ggAggHist(data = structure(list(xmin = c(-0.22, -0.2, -0.18,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.mean.z\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -732,11 +667,11 @@ ggAggHist(data = structure(list(xmin = c(-0.08, -0.06, -0.04,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.jerk.mean.x\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -770,11 +705,11 @@ ggAggHist(data = structure(list(xmin = c(-0.16, -0.14, -0.12,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.jerk.mean.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -808,11 +743,11 @@ ggAggHist(data = structure(list(xmin = c(-0.08, -0.07, -0.06,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.jerk.mean.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -847,11 +782,11 @@ ggAggHist(data = structure(list(xmin = c(-0.1, -0.09, -0.08,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.magnitude.mean\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -885,11 +820,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.gravity.acceleration.magnitude.mean\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -923,11 +858,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.jerk.magnitude.mean\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -961,11 +896,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.magnitude.mean\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -999,11 +934,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.jerk.magnitude.mean\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1038,11 +973,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.mean.x\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1076,11 +1011,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.mean.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1114,11 +1049,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.mean.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1152,11 +1087,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.meanfreq.x\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1190,11 +1125,11 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.meanfreq.y\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -1228,11 +1163,11 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.meanfreq.z\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -1267,11 +1202,11 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.jerk.mean.x\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1305,11 +1240,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.jerk.mean.y\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -1343,11 +1278,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.jerk.mean.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1382,11 +1317,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.jerk.meanfreq.x\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -1420,11 +1355,11 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.jerk.meanfreq.y\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -1458,11 +1393,11 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.jerk.meanfreq.z\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -1496,11 +1431,11 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.gyroscope.mean.x\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1534,11 +1469,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.gyroscope.mean.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1572,11 +1507,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.gyroscope.mean.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1610,11 +1545,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.gyroscope.meanfreq.x\_mean
 
-\bminione
+
 
 --------------------------------------
 Feature                         Result
@@ -1647,11 +1582,11 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 
 
 
-\fullline
+
 
 ## frequency.body.gyroscope.meanfreq.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1685,11 +1620,11 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.gyroscope.meanfreq.z\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -1723,11 +1658,11 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.magnitude.mean\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1761,11 +1696,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.magnitude.meanfreq\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -1799,11 +1734,11 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 
 
 
-\fullline
+
 
 ## frequency.body.bodyacceleration.jerk.magnitude.mean\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1837,11 +1772,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.bodyacceleration.jerk.magnitude.meanfreq\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -1876,11 +1811,11 @@ ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05,
 
 
 
-\fullline
+
 
 ## frequency.body.body.gyroscope.magnitude.mean\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1915,11 +1850,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-\fullline
+
 
 ## frequency.body.body.gyroscope.magnitude.meanfreq\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -1953,11 +1888,11 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 
 
 
-\fullline
+
 
 ## frequency.body.body.gyroscope.jerk.magnitude.mean\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -1992,11 +1927,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-\fullline
+
 
 ## frequency.body.body.gyroscope.jerk.magnitude.meanfreq\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -2031,11 +1966,11 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 
 
 
-\fullline
+
 
 ## angletime.body.acceleration.mean.gravity\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -2068,11 +2003,11 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 
 
 
-\fullline
+
 
 ## angletime.body.acceleration.jerkmean.gravitymean\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -2106,11 +2041,11 @@ ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05,
 
 
 
-\fullline
+
 
 ## angletime.body.gyroscope.mean.gravitymean\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -2144,11 +2079,11 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 
 
 
-\fullline
+
 
 ## angletime.body.gyroscope.jerkmean.gravitymean\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -2182,11 +2117,11 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 
 
 
-\fullline
+
 
 ## anglex.gravitymean\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2220,11 +2155,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## angley.gravitymean\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -2258,11 +2193,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## anglez.gravitymean\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -2296,11 +2231,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.std.x\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -2334,11 +2269,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.std.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2372,11 +2307,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.std.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2410,11 +2345,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.gravity.acceleration.std.x\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2448,11 +2383,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 
 
 
-\fullline
+
 
 ## time.gravity.acceleration.std.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2486,11 +2421,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 
 
-\fullline
+
 
 ## time.gravity.acceleration.std.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2524,11 +2459,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.jerk.std.x\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2562,11 +2497,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.jerk.std.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2600,11 +2535,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.jerk.std.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2639,11 +2574,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.std.x\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2677,11 +2612,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.std.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2715,11 +2650,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.std.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2753,11 +2688,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.jerk.std.x\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2792,11 +2727,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.jerk.std.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2830,11 +2765,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.jerk.std.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2869,11 +2804,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.magnitude.std\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2907,11 +2842,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.gravity.acceleration.magnitude.std\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2945,11 +2880,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.acceleration.jerk.magnitude.std\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -2983,11 +2918,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.magnitude.std\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3021,11 +2956,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## time.body.gyroscope.jerk.magnitude.std\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3060,11 +2995,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.std.x\_mean
 
-\bminione
+
 
 ---------------------------------------
 Feature                          Result
@@ -3098,11 +3033,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.std.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3136,11 +3071,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.std.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3174,11 +3109,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.jerk.std.x\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3212,11 +3147,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.jerk.std.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3250,11 +3185,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.jerk.std.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3289,11 +3224,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-\fullline
+
 
 ## frequency.body.gyroscope.std.x\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3328,11 +3263,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-\fullline
+
 
 ## frequency.body.gyroscope.std.y\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3366,11 +3301,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.gyroscope.std.z\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3404,11 +3339,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.acceleration.magnitude.std\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3443,11 +3378,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-\fullline
+
 
 ## frequency.body.bodyacceleration.jerk.magnitude.std\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3481,11 +3416,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 ## frequency.body.body.gyroscope.magnitude.std\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3520,11 +3455,11 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-\fullline
+
 
 ## frequency.body.body.gyroscope.jerk.magnitude.std\_mean
 
-\bminione
+
 
 ----------------------------------------
 Feature                           Result
@@ -3558,7 +3493,7 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-\fullline
+
 
 
 
