@@ -1,19 +1,19 @@
 # Data report overview
 The dataset examined has the following dimensions:
 
----------------------------------
+
 Feature                    Result
------------------------- --------
+ 
 Number of observations        180
 
 Number of variables            88
----------------------------------
+
 
 
 # Codebook summary table
 
-------- --------------------------------------------------------------------- ----------- ---------- --------- -------------
-        Variable                                                        Class     # unique   Missing values               
+---  -- - -
+        Variable                                                        Class        # unique   Missing values               
 
         subject                                                         integer             30  0.00 %                
 
@@ -190,16 +190,13 @@ Number of variables            88
         frequency.body.body.gyroscope.magnitude.std\_mean               numeric            180  0.00 %                
 
         frequency.body.body.gyroscope.jerk.magnitude.std\_mean          numeric            180  0.00 %                
-----------------------------------------------------------------------------------------------------------------------------
-
-
 
 
 # Variable list
 ## subject
--------------------------------------
+
 Feature                      Result
-------------------------- ---------
+
 Variable type               integer
 
 Number of missing obs.      0 (0 %)
@@ -211,12 +208,12 @@ Median                         15.5
 1st and 3rd quartiles         8; 23
 
 Min. and max.                 1; 30
------------------------------------
+--
 
 ## activity
--------------------------------------
+
 Feature                        Result
-------------------------- -----------
+
 Variable type               character
 
 Number of missing obs.        0 (0 %)
@@ -224,15 +221,15 @@ Number of missing obs.        0 (0 %)
 Number of unique values             6
 
 Mode                         "laying"
--------------------------------------
+
 
 - Observed factor levels: \"laying\", \"sitting\", \"standing\", \"walking\", \"walking downstairs\", \"walking upstairs\". 
 
 
 ## time.body.acceleration.mean.x\_mean
---------------------------------------
+
 Feature                         Result
-------------------------- ------------
+
 Variable type                  numeric
 
 Number of missing obs.         0 (0 %)
@@ -244,13 +241,13 @@ Median                            0.28
 1st and 3rd quartiles       0.27; 0.28
 
 Min. and max.                0.22; 0.3
---------------------------------------
+
 
 
 ## time.body.acceleration.mean.y\_mean
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -262,34 +259,12 @@ Median                             -0.02
 1st and 3rd quartiles       -0.02; -0.01
 
 Min. and max.                   -0.04; 0
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-4-time-body-acceleration-mean-y-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.045, -0.04, -0.035, 
--0.03, -0.025, -0.02, -0.015, -0.01, -0.005), xmax = c(-0.04, 
--0.035, -0.03, -0.025, -0.02, -0.015, -0.01, -0.005, 0), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 0L, 6L, 15L, 25L, 87L, 
-30L, 14L, 2L)), class = "data.frame", row.names = c(NA, -9L)), 
-    vnam = "time.body.acceleration.mean.y_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.acceleration.mean.z\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -301,34 +276,12 @@ Median                             -0.11
 1st and 3rd quartiles        -0.11; -0.1
 
 Min. and max.               -0.15; -0.08
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-5-time-body-acceleration-mean-z-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.16, -0.15, -0.14, 
--0.13, -0.12, -0.11, -0.1, -0.09, -0.08), xmax = c(-0.15, -0.14, 
--0.13, -0.12, -0.11, -0.1, -0.09, -0.08, -0.07), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 1L, 2L, 15L, 48L, 92L, 
-16L, 3L, 1L)), class = "data.frame", row.names = c(NA, -9L)), 
-    vnam = "time.body.acceleration.mean.z_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.gravity.acceleration.mean.x\_mean
 
-
-
----------------------------------------
 Feature                          Result
-------------------------- -------------
+
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -340,33 +293,12 @@ Median                             0.92
 1st and 3rd quartiles        0.84; 0.94
 
 Min. and max.               -0.68; 0.97
----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-6-time-gravity-acceleration-mean-x-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.8, -0.6, -0.4, -0.2, 
-0, 0.2, 0.4, 0.6, 0.8), xmax = c(-0.6, -0.4, -0.2, 0, 0.2, 0.4, 
-0.6, 0.8, 1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 
-13L, 9L, 6L, 0L, 0L, 1L, 6L, 143L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "time.gravity.acceleration.mean.x_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.gravity.acceleration.mean.y\_mean
 
-
-
----------------------------------------
 Feature                          Result
-------------------------- -------------
+
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -378,33 +310,15 @@ Median                            -0.13
 1st and 3rd quartiles       -0.23; 0.09
 
 Min. and max.               -0.48; 0.96
----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-7-time-gravity-acceleration-mean-y-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), xmax = c(-0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 
-1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 66L, 61L, 
-14L, 11L, 5L, 10L, 10L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "time.gravity.acceleration.mean.y_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.gravity.acceleration.mean.z\_mean
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -416,33 +330,12 @@ Median                             0.02
 1st and 3rd quartiles       -0.12; 0.15
 
 Min. and max.                -0.5; 0.96
----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-8-time-gravity-acceleration-mean-z-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), xmax = c(-0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 
-1), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 18L, 60L, 
-63L, 13L, 7L, 10L, 6L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "time.gravity.acceleration.mean.z_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.acceleration.jerk.mean.x\_mean
 
-
-
---------------------------------------
 Feature                         Result
-------------------------- ------------
+
 Variable type                  numeric
 
 Number of missing obs.         0 (0 %)
@@ -454,33 +347,12 @@ Median                            0.08
 1st and 3rd quartiles       0.07; 0.08
 
 Min. and max.               0.04; 0.13
---------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-9-time-body-acceleration-jerk-mean-x-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(0.04, 0.05, 0.06, 0.07, 
-0.08, 0.09, 0.1, 0.11, 0.12, 0.13), xmax = c(0.05, 0.06, 0.07, 
-0.08, 0.09, 0.1, 0.11, 0.12, 0.13, 0.14), ymin = c(0, 0, 0, 0, 
-0, 0, 0, 0, 0, 0), ymax = c(3L, 4L, 13L, 98L, 34L, 14L, 8L, 5L, 
-0L, 1L)), class = "data.frame", row.names = c(NA, -10L)), vnam = "time.body.acceleration.jerk.mean.x_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.acceleration.jerk.mean.y\_mean
 
-
-
----------------------------------------
 Feature                          Result
-------------------------- -------------
+
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -492,34 +364,12 @@ Median                             0.01
 1st and 3rd quartiles           0; 0.01
 
 Min. and max.               -0.04; 0.06
----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-10-time-body-acceleration-jerk-mean-y-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.04, -0.03, -0.02, 
--0.01, 0, 0.01, 0.02, 0.03, 0.04, 0.05), xmax = c(-0.03, -0.02, 
--0.01, 0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06), ymin = c(0, 0, 
-0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 3L, 13L, 26L, 52L, 59L, 
-18L, 6L, 0L, 1L)), class = "data.frame", row.names = c(NA, -10L
-)), vnam = "time.body.acceleration.jerk.mean.y_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.acceleration.jerk.mean.z\_mean
 
-
-
----------------------------------------
 Feature                          Result
-------------------------- -------------
+
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -531,34 +381,12 @@ Median                                0
 1st and 3rd quartiles          -0.01; 0
 
 Min. and max.               -0.07; 0.04
----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-11-time-body-acceleration-jerk-mean-z-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.07, -0.06, -0.05, 
--0.04, -0.03, -0.02, -0.01, 0, 0.01, 0.02, 0.03), xmax = c(-0.06, 
--0.05, -0.04, -0.03, -0.02, -0.01, 0, 0.01, 0.02, 0.03, 0.04), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 1L, 
-    1L, 6L, 12L, 27L, 77L, 41L, 9L, 3L, 2L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "time.body.acceleration.jerk.mean.z_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.gyroscope.mean.x\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -570,33 +398,12 @@ Median                             -0.03
 1st and 3rd quartiles       -0.05; -0.02
 
 Min. and max.                -0.21; 0.19
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-12-time-body-gyroscope-mean-x-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15, 
--0.1, -0.05, 0, 0.05, 0.1, 0.15), xmax = c(-0.2, -0.15, -0.1, 
--0.05, 0, 0.05, 0.1, 0.15, 0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 
-0, 0), ymax = c(1L, 2L, 18L, 20L, 113L, 11L, 13L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "time.body.gyroscope.mean.x_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.gyroscope.mean.y\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -608,35 +415,12 @@ Median                             -0.07
 1st and 3rd quartiles       -0.09; -0.06
 
 Min. and max.                 -0.2; 0.03
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-13-time-body-gyroscope-mean-y-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.22, -0.2, -0.18, 
--0.16, -0.14, -0.12, -0.1, -0.08, -0.06, -0.04, -0.02, 0, 0.02
-), xmax = c(-0.2, -0.18, -0.16, -0.14, -0.12, -0.1, -0.08, -0.06, 
--0.04, -0.02, 0, 0.02, 0.04), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 
-0, 0, 0, 0, 0), ymax = c(1L, 1L, 2L, 5L, 5L, 12L, 38L, 72L, 23L, 
-9L, 5L, 5L, 2L)), class = "data.frame", row.names = c(NA, -13L
-)), vnam = "time.body.gyroscope.mean.y_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.gyroscope.mean.z\_mean
 
-
-
----------------------------------------
 Feature                          Result
-------------------------- -------------
+
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -648,34 +432,12 @@ Median                             0.09
 1st and 3rd quartiles         0.07; 0.1
 
 Min. and max.               -0.07; 0.18
----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-14-time-body-gyroscope-mean-z-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.08, -0.06, -0.04, 
--0.02, 0, 0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16), xmax = c(-0.06, 
--0.04, -0.02, 0, 0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16, 
-0.18), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-1L, 1L, 3L, 2L, 4L, 11L, 36L, 74L, 23L, 8L, 13L, 3L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "time.body.gyroscope.mean.z_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.gyroscope.jerk.mean.x\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -687,33 +449,12 @@ Median                              -0.1
 1st and 3rd quartiles        -0.1; -0.09
 
 Min. and max.               -0.16; -0.02
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-15-time-body-gyroscope-jerk-mean-x-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.16, -0.14, -0.12, 
--0.1, -0.08, -0.06, -0.04), xmax = c(-0.14, -0.12, -0.1, -0.08, 
--0.06, -0.04, -0.02), ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(10L, 
-10L, 55L, 76L, 16L, 7L, 6L)), class = "data.frame", row.names = c(NA, 
--7L)), vnam = "time.body.gyroscope.jerk.mean.x_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.gyroscope.jerk.mean.y\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -725,33 +466,12 @@ Median                             -0.04
 1st and 3rd quartiles       -0.05; -0.04
 
 Min. and max.               -0.08; -0.01
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-16-time-body-gyroscope-jerk-mean-y-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.08, -0.07, -0.06, 
--0.05, -0.04, -0.03, -0.02), xmax = c(-0.07, -0.06, -0.05, -0.04, 
--0.03, -0.02, -0.01), ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(5L, 
-5L, 21L, 78L, 62L, 6L, 3L)), class = "data.frame", row.names = c(NA, 
--7L)), vnam = "time.body.gyroscope.jerk.mean.y_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.gyroscope.jerk.mean.z\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -763,34 +483,12 @@ Median                             -0.05
 1st and 3rd quartiles       -0.06; -0.05
 
 Min. and max.               -0.09; -0.01
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-17-time-body-gyroscope-jerk-mean-z-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.1, -0.09, -0.08, 
--0.07, -0.06, -0.05, -0.04, -0.03, -0.02, -0.01), xmax = c(-0.09, 
--0.08, -0.07, -0.06, -0.05, -0.04, -0.03, -0.02, -0.01, 0), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(2L, 1L, 17L, 33L, 74L, 36L, 
-11L, 4L, 1L, 1L)), class = "data.frame", row.names = c(NA, -10L
-)), vnam = "time.body.gyroscope.jerk.mean.z_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.acceleration.magnitude.mean\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -802,33 +500,12 @@ Median                             -0.48
 1st and 3rd quartiles       -0.96; -0.09
 
 Min. and max.                -0.99; 0.64
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-18-time-body-acceleration-magnitude-mean-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 
-0L, 2L, 17L, 37L, 26L, 8L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "time.body.acceleration.magnitude.mean_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.gravity.acceleration.magnitude.mean\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -840,33 +517,12 @@ Median                             -0.48
 1st and 3rd quartiles       -0.96; -0.09
 
 Min. and max.                -0.99; 0.64
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-19-time-gravity-acceleration-magnitude-mean-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4, 0.6), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 
-0.2, 0.4, 0.6, 0.8), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 
-0L, 2L, 17L, 37L, 26L, 8L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "time.gravity.acceleration.magnitude.mean_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.acceleration.jerk.magnitude.mean\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -878,33 +534,12 @@ Median                             -0.82
 1st and 3rd quartiles       -0.98; -0.25
 
 Min. and max.                -0.99; 0.43
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-20-time-body-acceleration-jerk-magnitude-mean-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 2L, 
-17L, 33L, 29L, 7L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "time.body.acceleration.jerk.magnitude.mean_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.gyroscope.magnitude.mean\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -916,33 +551,12 @@ Median                             -0.66
 1st and 3rd quartiles       -0.95; -0.22
 
 Min. and max.                -0.98; 0.42
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-21-time-body-gyroscope-magnitude-mean-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 0L, 
-7L, 42L, 28L, 11L, 1L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "time.body.gyroscope.magnitude.mean_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## time.body.gyroscope.jerk.magnitude.mean\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -954,34 +568,12 @@ Median                             -0.86
 1st and 3rd quartiles       -0.99; -0.51
 
 Min. and max.                   -1; 0.09
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-22-time-body-gyroscope-jerk-magnitude-mean-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0), xmax = c(-0.9, -0.8, 
--0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1), ymin = c(0, 
-0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 0L, 6L, 19L, 26L, 
-16L, 12L, 4L, 3L, 2L, 2L)), class = "data.frame", row.names = c(NA, 
--11L)), vnam = "time.body.gyroscope.jerk.magnitude.mean_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## frequency.body.acceleration.mean.x\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -993,33 +585,12 @@ Median                             -0.77
 1st and 3rd quartiles       -0.98; -0.22
 
 Min. and max.                   -1; 0.54
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-23-frequency-body-acceleration-mean-x-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 1L, 
-9L, 36L, 23L, 16L, 4L, 1L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "frequency.body.acceleration.mean.x_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## frequency.body.acceleration.mean.y\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1031,33 +602,12 @@ Median                             -0.59
 1st and 3rd quartiles       -0.95; -0.06
 
 Min. and max.                -0.99; 0.52
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-24-frequency-body-acceleration-mean-y-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2, 0.4), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 
-0.4, 0.6), ymin = c(0, 0, 0, 0, 0, 0, 0, 0), ymax = c(89L, 1L, 
-1L, 14L, 40L, 25L, 7L, 3L)), class = "data.frame", row.names = c(NA, 
--8L)), vnam = "frequency.body.acceleration.mean.y_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## frequency.body.acceleration.mean.z\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1069,33 +619,12 @@ Median                             -0.72
 1st and 3rd quartiles       -0.96; -0.32
 
 Min. and max.                -0.99; 0.28
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-25-frequency-body-acceleration-mean-z-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 2L, 28L, 40L, 
-    13L, 5L, 2L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "frequency.body.acceleration.mean.z_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## frequency.body.acceleration.meanfreq.x\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1107,33 +636,12 @@ Median                             -0.26
 1st and 3rd quartiles       -0.39; -0.06
 
 Min. and max.                -0.64; 0.16
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-26-frequency-body-acceleration-meanfreq-x-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4, 
--0.3, -0.2, -0.1, 0, 0.1), xmax = c(-0.6, -0.5, -0.4, -0.3, -0.2, 
--0.1, 0, 0.1, 0.2), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(1L, 
-12L, 31L, 37L, 25L, 19L, 27L, 23L, 5L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "frequency.body.acceleration.meanfreq.x_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## frequency.body.acceleration.meanfreq.y\_mean
 
-
-
----------------------------------------
 Feature                          Result
-------------------------- -------------
+
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -1145,33 +653,12 @@ Median                             0.01
 1st and 3rd quartiles       -0.08; 0.09
 
 Min. and max.               -0.38; 0.47
----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-27-frequency-body-acceleration-meanfreq-y-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1, 
-0, 0.1, 0.2, 0.3, 0.4), xmax = c(-0.3, -0.2, -0.1, 0, 0.1, 0.2, 
-0.3, 0.4, 0.5), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 
-8L, 28L, 41L, 59L, 22L, 14L, 4L, 1L)), class = "data.frame", row.names = c(NA, 
--9L)), vnam = "frequency.body.acceleration.meanfreq.y_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## frequency.body.acceleration.meanfreq.z\_mean
 
-
-
----------------------------------------
 Feature                          Result
-------------------------- -------------
+
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -1183,34 +670,15 @@ Median                             0.07
 1st and 3rd quartiles       -0.04; 0.18
 
 Min. and max.                -0.52; 0.4
----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-28-frequency-body-acceleration-meanfreq-z-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3, 
--0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4), xmax = c(-0.5, -0.4, -0.3, 
--0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5), ymin = c(0, 0, 0, 0, 
-0, 0, 0, 0, 0, 0, 0), ymax = c(3L, 3L, 2L, 12L, 13L, 26L, 50L, 
-34L, 28L, 8L, 1L)), class = "data.frame", row.names = c(NA, -11L
-)), vnam = "frequency.body.acceleration.meanfreq.z_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## frequency.body.acceleration.jerk.mean.x\_mean
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1222,7 +690,7 @@ Median                             -0.81
 1st and 3rd quartiles       -0.98; -0.28
 
 Min. and max.                -0.99; 0.47
-----------------------------------------
+
 
 
 \emini
@@ -1246,9 +714,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -1260,7 +728,7 @@ Median                            -0.78
 1st and 3rd quartiles       -0.97; -0.2
 
 Min. and max.               -0.99; 0.28
----------------------------------------
+--
 
 
 \emini
@@ -1284,9 +752,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1298,7 +766,7 @@ Median                             -0.87
 1st and 3rd quartiles       -0.98; -0.47
 
 Min. and max.                -0.99; 0.16
-----------------------------------------
+
 
 
 \emini
@@ -1323,9 +791,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -1337,7 +805,7 @@ Median                            -0.06
 1st and 3rd quartiles       -0.29; 0.18
 
 Min. and max.               -0.58; 0.33
----------------------------------------
+--
 
 
 \emini
@@ -1361,9 +829,9 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -1375,7 +843,7 @@ Median                            -0.23
 1st and 3rd quartiles       -0.4; -0.05
 
 Min. and max.                 -0.6; 0.2
----------------------------------------
+--
 
 
 \emini
@@ -1399,9 +867,9 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -1413,7 +881,7 @@ Median                            -0.09
 1st and 3rd quartiles       -0.31; 0.04
 
 Min. and max.               -0.63; 0.23
----------------------------------------
+--
 
 
 \emini
@@ -1437,9 +905,9 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1451,7 +919,7 @@ Median                             -0.73
 1st and 3rd quartiles       -0.97; -0.34
 
 Min. and max.                -0.99; 0.47
-----------------------------------------
+
 
 
 \emini
@@ -1475,9 +943,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1489,7 +957,7 @@ Median                             -0.81
 1st and 3rd quartiles       -0.97; -0.45
 
 Min. and max.                -0.99; 0.33
-----------------------------------------
+
 
 
 \emini
@@ -1513,9 +981,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1527,7 +995,7 @@ Median                             -0.79
 1st and 3rd quartiles       -0.96; -0.26
 
 Min. and max.                -0.99; 0.49
-----------------------------------------
+
 
 
 \emini
@@ -1551,9 +1019,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
---------------------------------------
+-
 Feature                         Result
-------------------------- ------------
+-
 Variable type                  numeric
 
 Number of missing obs.         0 (0 %)
@@ -1565,7 +1033,7 @@ Median                           -0.12
 1st and 3rd quartiles         -0.21; 0
 
 Min. and max.               -0.4; 0.25
---------------------------------------
+-
 
 
 \emini
@@ -1588,9 +1056,9 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1602,7 +1070,7 @@ Median                             -0.16
 1st and 3rd quartiles       -0.29; -0.04
 
 Min. and max.                -0.67; 0.27
-----------------------------------------
+
 
 
 \emini
@@ -1626,9 +1094,9 @@ ggAggHist(data = structure(list(xmin = c(-0.7, -0.6, -0.5, -0.4,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -1640,7 +1108,7 @@ Median                            -0.05
 1st and 3rd quartiles       -0.15; 0.04
 
 Min. and max.               -0.51; 0.38
----------------------------------------
+--
 
 
 \emini
@@ -1664,9 +1132,9 @@ ggAggHist(data = structure(list(xmin = c(-0.6, -0.5, -0.4, -0.3,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1678,7 +1146,7 @@ Median                             -0.67
 1st and 3rd quartiles       -0.96; -0.16
 
 Min. and max.                -0.99; 0.59
-----------------------------------------
+
 
 
 \emini
@@ -1702,9 +1170,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -1716,7 +1184,7 @@ Median                             0.08
 1st and 3rd quartiles       -0.01; 0.17
 
 Min. and max.               -0.31; 0.44
----------------------------------------
+--
 
 
 \emini
@@ -1740,9 +1208,9 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1754,7 +1222,7 @@ Median                             -0.79
 1st and 3rd quartiles       -0.98; -0.19
 
 Min. and max.                -0.99; 0.54
-----------------------------------------
+
 
 
 \emini
@@ -1778,9 +1246,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -1792,7 +1260,7 @@ Median                             0.17
 1st and 3rd quartiles        0.05; 0.28
 
 Min. and max.               -0.13; 0.49
----------------------------------------
+--
 
 
 \emini
@@ -1817,9 +1285,9 @@ ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1831,7 +1299,7 @@ Median                             -0.77
 1st and 3rd quartiles       -0.96; -0.41
 
 Min. and max.                 -0.99; 0.2
-----------------------------------------
+
 
 
 \emini
@@ -1856,9 +1324,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -1870,7 +1338,7 @@ Median                            -0.05
 1st and 3rd quartiles       -0.17; 0.08
 
 Min. and max.               -0.46; 0.41
----------------------------------------
+--
 
 
 \emini
@@ -1894,9 +1362,9 @@ ggAggHist(data = structure(list(xmin = c(-0.5, -0.4, -0.3, -0.2,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -1908,7 +1376,7 @@ Median                             -0.88
 1st and 3rd quartiles       -0.98; -0.58
 
 Min. and max.                   -1; 0.15
-----------------------------------------
+
 
 
 \emini
@@ -1933,9 +1401,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -1947,7 +1415,7 @@ Median                             0.11
 1st and 3rd quartiles        0.05; 0.21
 
 Min. and max.               -0.18; 0.43
----------------------------------------
+--
 
 
 \emini
@@ -1972,9 +1440,9 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -1986,7 +1454,7 @@ Median                             0.01
 1st and 3rd quartiles       -0.01; 0.02
 
 Min. and max.               -0.16; 0.13
----------------------------------------
+--
 
 
 \emini
@@ -2009,9 +1477,9 @@ ggAggHist(data = structure(list(xmin = c(-0.2, -0.15, -0.1, -0.05,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -2023,7 +1491,7 @@ Median                                0
 1st and 3rd quartiles       -0.02; 0.02
 
 Min. and max.                -0.12; 0.2
----------------------------------------
+--
 
 
 \emini
@@ -2047,9 +1515,9 @@ ggAggHist(data = structure(list(xmin = c(-0.15, -0.1, -0.05,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -2061,7 +1529,7 @@ Median                             0.02
 1st and 3rd quartiles       -0.02; 0.06
 
 Min. and max.               -0.39; 0.44
----------------------------------------
+--
 
 
 \emini
@@ -2085,9 +1553,9 @@ ggAggHist(data = structure(list(xmin = c(-0.4, -0.3, -0.2, -0.1,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -2099,7 +1567,7 @@ Median                            -0.02
 1st and 3rd quartiles       -0.06; 0.03
 
 Min. and max.               -0.22; 0.18
----------------------------------------
+--
 
 
 \emini
@@ -2123,9 +1591,9 @@ ggAggHist(data = structure(list(xmin = c(-0.25, -0.2, -0.15,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2137,7 +1605,7 @@ Median                             -0.74
 1st and 3rd quartiles       -0.79; -0.58
 
 Min. and max.                -0.95; 0.74
-----------------------------------------
+
 
 
 \emini
@@ -2161,9 +1629,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -2175,7 +1643,7 @@ Median                             0.17
 1st and 3rd quartiles        0.02; 0.24
 
 Min. and max.               -0.87; 0.42
----------------------------------------
+--
 
 
 \emini
@@ -2199,9 +1667,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -2213,7 +1681,7 @@ Median                             0.01
 1st and 3rd quartiles       -0.08; 0.11
 
 Min. and max.               -0.87; 0.39
----------------------------------------
+--
 
 
 \emini
@@ -2237,9 +1705,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -2251,7 +1719,7 @@ Median                            -0.75
 1st and 3rd quartiles       -0.98; -0.2
 
 Min. and max.                  -1; 0.63
----------------------------------------
+--
 
 
 \emini
@@ -2275,9 +1743,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2289,7 +1757,7 @@ Median                             -0.51
 1st and 3rd quartiles       -0.94; -0.03
 
 Min. and max.                -0.99; 0.62
-----------------------------------------
+
 
 
 \emini
@@ -2313,9 +1781,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2327,7 +1795,7 @@ Median                             -0.65
 1st and 3rd quartiles       -0.95; -0.23
 
 Min. and max.                -0.99; 0.61
-----------------------------------------
+
 
 
 \emini
@@ -2351,9 +1819,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2365,7 +1833,7 @@ Median                             -0.97
 1st and 3rd quartiles       -0.98; -0.95
 
 Min. and max.                  -1; -0.83
-----------------------------------------
+
 
 
 \emini
@@ -2389,9 +1857,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.98, -0.96, -0.94,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2403,7 +1871,7 @@ Median                             -0.96
 1st and 3rd quartiles       -0.97; -0.94
 
 Min. and max.               -0.99; -0.64
-----------------------------------------
+
 
 
 \emini
@@ -2427,9 +1895,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2441,7 +1909,7 @@ Median                             -0.95
 1st and 3rd quartiles       -0.96; -0.92
 
 Min. and max.               -0.99; -0.61
-----------------------------------------
+
 
 
 \emini
@@ -2465,9 +1933,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.95, -0.9, -0.85,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2479,7 +1947,7 @@ Median                             -0.81
 1st and 3rd quartiles       -0.98; -0.22
 
 Min. and max.                -0.99; 0.54
-----------------------------------------
+
 
 
 \emini
@@ -2503,9 +1971,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2517,7 +1985,7 @@ Median                             -0.78
 1st and 3rd quartiles       -0.97; -0.15
 
 Min. and max.                -0.99; 0.36
-----------------------------------------
+
 
 
 \emini
@@ -2541,9 +2009,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2555,7 +2023,7 @@ Median                             -0.88
 1st and 3rd quartiles       -0.98; -0.51
 
 Min. and max.                -0.99; 0.03
-----------------------------------------
+
 
 
 \emini
@@ -2580,9 +2048,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2594,7 +2062,7 @@ Median                             -0.79
 1st and 3rd quartiles       -0.97; -0.44
 
 Min. and max.                -0.99; 0.27
-----------------------------------------
+
 
 
 \emini
@@ -2618,9 +2086,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2632,7 +2100,7 @@ Median                              -0.8
 1st and 3rd quartiles       -0.96; -0.42
 
 Min. and max.                -0.99; 0.48
-----------------------------------------
+
 
 
 \emini
@@ -2656,9 +2124,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2670,7 +2138,7 @@ Median                              -0.8
 1st and 3rd quartiles       -0.96; -0.31
 
 Min. and max.                -0.99; 0.56
-----------------------------------------
+
 
 
 \emini
@@ -2694,9 +2162,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2708,7 +2176,7 @@ Median                             -0.84
 1st and 3rd quartiles       -0.98; -0.46
 
 Min. and max.                   -1; 0.18
-----------------------------------------
+
 
 
 \emini
@@ -2733,9 +2201,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2747,7 +2215,7 @@ Median                             -0.89
 1st and 3rd quartiles       -0.98; -0.59
 
 Min. and max.                    -1; 0.3
-----------------------------------------
+
 
 
 \emini
@@ -2771,9 +2239,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2785,7 +2253,7 @@ Median                             -0.86
 1st and 3rd quartiles       -0.98; -0.47
 
 Min. and max.                   -1; 0.19
-----------------------------------------
+
 
 
 \emini
@@ -2810,9 +2278,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2824,7 +2292,7 @@ Median                             -0.61
 1st and 3rd quartiles       -0.94; -0.21
 
 Min. and max.                -0.99; 0.43
-----------------------------------------
+
 
 
 \emini
@@ -2848,9 +2316,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2862,7 +2330,7 @@ Median                             -0.61
 1st and 3rd quartiles       -0.94; -0.21
 
 Min. and max.                -0.99; 0.43
-----------------------------------------
+
 
 
 \emini
@@ -2886,9 +2354,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2900,7 +2368,7 @@ Median                              -0.8
 1st and 3rd quartiles       -0.98; -0.22
 
 Min. and max.                -0.99; 0.45
-----------------------------------------
+
 
 
 \emini
@@ -2924,9 +2392,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2938,7 +2406,7 @@ Median                             -0.74
 1st and 3rd quartiles       -0.95; -0.36
 
 Min. and max.                 -0.98; 0.3
-----------------------------------------
+
 
 
 \emini
@@ -2962,9 +2430,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -2976,7 +2444,7 @@ Median                             -0.88
 1st and 3rd quartiles       -0.98; -0.58
 
 Min. and max.                   -1; 0.25
-----------------------------------------
+
 
 
 \emini
@@ -3001,9 +2469,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
----------------------------------------
+--
 Feature                          Result
-------------------------- -------------
+--
 Variable type                   numeric
 
 Number of missing obs.          0 (0 %)
@@ -3015,7 +2483,7 @@ Median                            -0.75
 1st and 3rd quartiles       -0.98; -0.2
 
 Min. and max.                  -1; 0.66
----------------------------------------
+--
 
 
 \emini
@@ -3039,9 +2507,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -3053,7 +2521,7 @@ Median                             -0.51
 1st and 3rd quartiles       -0.94; -0.08
 
 Min. and max.                -0.99; 0.56
-----------------------------------------
+
 
 
 \emini
@@ -3077,9 +2545,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -3091,7 +2559,7 @@ Median                             -0.64
 1st and 3rd quartiles       -0.95; -0.27
 
 Min. and max.                -0.99; 0.69
-----------------------------------------
+
 
 
 \emini
@@ -3115,9 +2583,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -3129,7 +2597,7 @@ Median                             -0.83
 1st and 3rd quartiles       -0.98; -0.25
 
 Min. and max.                   -1; 0.48
-----------------------------------------
+
 
 
 \emini
@@ -3153,9 +2621,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -3167,7 +2635,7 @@ Median                             -0.79
 1st and 3rd quartiles       -0.97; -0.17
 
 Min. and max.                -0.99; 0.35
-----------------------------------------
+
 
 
 \emini
@@ -3191,9 +2659,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -3205,7 +2673,7 @@ Median                              -0.9
 1st and 3rd quartiles       -0.98; -0.54
 
 Min. and max.               -0.99; -0.01
-----------------------------------------
+
 
 
 \emini
@@ -3230,9 +2698,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -3244,7 +2712,7 @@ Median                             -0.81
 1st and 3rd quartiles       -0.98; -0.48
 
 Min. and max.                 -0.99; 0.2
-----------------------------------------
+
 
 
 \emini
@@ -3269,9 +2737,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -3283,7 +2751,7 @@ Median                              -0.8
 1st and 3rd quartiles       -0.96; -0.42
 
 Min. and max.                -0.99; 0.65
-----------------------------------------
+
 
 
 \emini
@@ -3307,9 +2775,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -3321,7 +2789,7 @@ Median                             -0.82
 1st and 3rd quartiles       -0.96; -0.39
 
 Min. and max.                -0.99; 0.52
-----------------------------------------
+
 
 
 \emini
@@ -3345,9 +2813,9 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4,
 
 
 
-----------------------------------------
+
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -3359,7 +2827,7 @@ Median                             -0.65
 1st and 3rd quartiles       -0.95; -0.37
 
 Min. and max.                -0.99; 0.18
-----------------------------------------
+
 
 
 \emini
@@ -3382,11 +2850,8 @@ ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7,
 
 ## frequency.body.bodyacceleration.jerk.magnitude.std\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -3398,33 +2863,12 @@ Median                             -0.81
 1st and 3rd quartiles       -0.98; -0.27
 
 Min. and max.                -0.99; 0.32
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-86-frequency-body-bodyacceleration-jerk-magnitude-std-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(90L, 1L, 25L, 22L, 
-    27L, 12L, 3L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "frequency.body.bodyacceleration.jerk.magnitude.std_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## frequency.body.body.gyroscope.magnitude.std\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -3436,34 +2880,12 @@ Median                             -0.77
 1st and 3rd quartiles       -0.95; -0.43
 
 Min. and max.                -0.98; 0.24
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-87-frequency-body-body-gyroscope-magnitude-std-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.9, -0.8, -0.7, 
--0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2), xmax = c(-0.9, 
--0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 
-0.3), ymin = c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), ymax = c(80L, 
-10L, 1L, 6L, 18L, 24L, 23L, 7L, 7L, 2L, 1L, 0L, 1L)), class = "data.frame", row.names = c(NA, 
--13L)), vnam = "frequency.body.body.gyroscope.magnitude.std_mean")
-```
-
-\emini
-
-
-
-
 
 
 ## frequency.body.body.gyroscope.jerk.magnitude.std\_mean
 
-
-
-----------------------------------------
 Feature                           Result
-------------------------- --------------
+
 Variable type                    numeric
 
 Number of missing obs.           0 (0 %)
@@ -3475,26 +2897,6 @@ Median                             -0.89
 1st and 3rd quartiles       -0.98; -0.61
 
 Min. and max.                   -1; 0.29
-----------------------------------------
-
-
-\emini
-\bminitwo
-```{r 'Var-88-frequency-body-body-gyroscope-jerk-magnitude-std-mean', echo=FALSE, fig.width=4, fig.height=3, message=FALSE, warning=FALSE}
-ggAggHist(data = structure(list(xmin = c(-1, -0.8, -0.6, -0.4, 
--0.2, 0, 0.2), xmax = c(-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4), 
-    ymin = c(0, 0, 0, 0, 0, 0, 0), ymax = c(94L, 41L, 29L, 10L, 
-    5L, 0L, 1L)), class = "data.frame", row.names = c(NA, -7L
-)), vnam = "frequency.body.body.gyroscope.jerk.magnitude.std_mean")
-```
-
-\emini
-
-
-
-
-
-
 
 
 Report generation information:
